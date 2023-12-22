@@ -103,5 +103,4 @@ if __name__ == "__main__":
             sleep(1)
             driver = webdriver.Safari()
             grabber = LinksCollector(driver)
-            grabber.run(city="Турция", district=district, type_org_ru=type_org_mapping[type_org], type_org=type_org)
-
+            grabber.run(city="Москва", district="Район Фили", type_org_ru="Кафе"
